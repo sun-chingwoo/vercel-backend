@@ -15,7 +15,7 @@ const app=express();
 app.use(express.json())
 app.use(cors(
     {
-        origin:"https://vercel-forntend-dyqc.vercel.app/"
+        origin:"https://vercel-forntend-dyqc.vercel.app"
     }
 ));
 
